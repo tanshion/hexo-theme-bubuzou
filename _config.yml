@@ -1,9 +1,9 @@
 menu:
     博文: /
     归档: /archives/
-    生活: /categories/live/
-    摄影: /categories/film/
-    关于: /about/
+#    生活: /categories/live/
+#    摄影: /categories/film/
+#    关于: /about/
 
 widgets:
 - category
@@ -17,7 +17,7 @@ favicon: /images/favicon.ico
 logo: /images/logo.png
 
 # Comment
-changyan: bubuzou
+#changyan: bubuzou
 yungentie: 
 disqus:
 duoshuo: 
@@ -25,8 +25,8 @@ duoshuo:
 
 # Analytics
 # google-analytics:
-ga: UA-65933410-1
+#ga: UA-65933410-1
 
 # Copyright Infomation
-startyear: 2016
+startyear: 2017
 
