@@ -106,10 +106,10 @@ svg:not(:root) { overflow: hidden; }
 figure { margin: 1em 40px; }
 
 hr {
-    box-sizing: content-box;
-    height: 1px;
-    solid: #555555;
-    border:none;
+    /*box-sizing: content-box;*/
+    /*height: 0;*/
+    height:1px;border:none;border-top:1px solid #555555;
+
 }
 
 pre { overflow: auto; }
@@ -247,7 +247,10 @@ a:active {
     text-decoration: none;
 }
 
-hr { border: 0; }
+hr {
+    /*border: 0; */
+    height:1px;border:none;border-top:1px solid #555555;
+}
 
 code {
     margin: 0 2px;
