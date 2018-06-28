@@ -108,7 +108,7 @@ figure { margin: 1em 40px; }
 hr {
     /*box-sizing: content-box;*/
     /*height: 0;*/
-    height:1px;border:none;border-top:1px solid #555555;
+    height:1px;border:none;border-top:1px solid #dddddd;
 
 }
 
@@ -249,7 +249,7 @@ a:active {
 
 hr {
     /*border: 0; */
-    height:1px;border:none;border-top:1px solid #555555;
+    height:1px;border:none;border-top:1px solid #dddddd;
 }
 
 code {
