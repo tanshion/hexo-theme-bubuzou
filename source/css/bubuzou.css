@@ -107,7 +107,9 @@ figure { margin: 1em 40px; }
 
 hr {
     box-sizing: content-box;
-    height: 0;
+    height: 1px;
+    solid: #555555;
+    border:none;
 }
 
 pre { overflow: auto; }
@@ -849,7 +851,7 @@ footer .copyright a:hover { color: #666; }
     -webkit-backface-visibility: hidden;
     -moz-backface-visibility: hidden;
     backface-visibility: hidden;
-    -moz-transform: scale(0.7)
+    -moz-transform: scale(0.7);
     -ms-transform: scale(0.7);
     -webkit-transform: scale(0.7);
     transform: scale(0.7);
@@ -862,7 +864,7 @@ footer .copyright a:hover { color: #666; }
 .search-on .search-modal {
     visibility: visible;
     opacity: 1;
-    -moz-transform: scale(1)
+    -moz-transform: scale(1);
     -ms-transform: scale(1);
     -webkit-transform: scale(1);
     transform: scale(1);
