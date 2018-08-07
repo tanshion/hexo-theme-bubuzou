@@ -3,7 +3,7 @@ mixin postInfo(item)
         != date(item.date, 'YYYY-MM-DD')
         p.visit
             if (is_home())
-                i(data-hk-page= url.encode(url_for(item.permalink)).toString()) -
+                i(data-hk-page= encodeURI(url_for(item.permalink))) -
             else 
                 i(data-hk-page="current") -
             span 次访问
